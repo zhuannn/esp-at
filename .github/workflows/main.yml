@@ -6,7 +6,8 @@ on:
     branches:
       - master
       - release/*
-
+  workflow_dispatch:
+  
 jobs:
   build-esp8266-wroom02-at:
     runs-on: ubuntu-latest
